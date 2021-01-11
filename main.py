@@ -14,7 +14,7 @@ def type(_, msg):
     orig_text = msg.text.split(".type ", maxsplit=1)[1]
     text = orig_text
     tbp = "" # to be printed
-    typing_symbol = "+"
+    typing_symbol = "▒"
  
     while(tbp != orig_text):
         try:
